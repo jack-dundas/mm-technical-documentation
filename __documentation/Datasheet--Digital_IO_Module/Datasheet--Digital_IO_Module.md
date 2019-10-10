@@ -3,7 +3,12 @@
 <p style="text-align:center;" ><img src="_media/VEN_Parts_CE-MD-001-0001_01.png" width="75%" height="75%"></p>
 
 ### Contents
-[TOC]
+- Overview
+- Important Notes
+- Technical Specifications
+- Applications
+- Connecting to MachineMotion
+- Control
 
 ### Overview
 The Digital IO Module, CE-MD-001-0001 extends the functionality of the MachineMotion controller with 4 industrial 24V inputs and 4 industrial 24V outputs. It is a plug-&-play module that only requires a single connection to MachineMotion controller. It comes ready to use with its associated 5 meters M12 cable.
