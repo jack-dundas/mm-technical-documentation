@@ -15,4 +15,6 @@
 
 #### Datasheets
 
+[Datasheet: Digital IO Module](__documentation/Datasheet--Digital_IO_Module/Datasheet--Digital_IO_Module.md)
+
 #### User Manuals
