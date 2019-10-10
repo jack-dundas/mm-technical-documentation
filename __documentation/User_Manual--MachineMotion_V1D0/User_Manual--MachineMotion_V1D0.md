@@ -129,8 +129,9 @@ Step 3: Enter the IP, Netmask & Gateway fields and click on â€œUse Static Modeâ€
 #### Using the PENDANT
 The MachineMotion pendant allows users to have a configuration free connection to the controller. Simply connect the pendant in the PENDANT port using its 8 pin M12 cable.
 
-## Configuring Actuators
 
+## Configuring Actuators
+(Setup Guide for Linear Axes)
 ### Axis Direction & End-Stop Sensors
 
 ### Configuration Using the Vention ControlCenter
