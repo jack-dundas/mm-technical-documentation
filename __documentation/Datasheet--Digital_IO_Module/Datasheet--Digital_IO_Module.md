@@ -57,18 +57,17 @@ The Digital IO Module contains 4 inputs and 4 outputs, each of which is grouped 
 
 
 ##### Input LED's
-| Signal Type   | State         | LED   |
-|---            |---            |---    |
-| Input         | High          |ON     |
-| Input         | Low           |OFF    |
-| Input         | Floating      |ON     |
+| Signal Type   | State         | Voltage (V)   | LED   |
+|---            |---            |---            |---    |
+| Input         | High          | 24            |ON     |
+| Input         | Low           | 0             |OFF    |
+| Input         | Floating      | 24            |ON     |
 
 ##### Output LED's
-| Signal Type   | State         | LED   |
-|---            |---            |---    |
-| Output        | High          |ON     |
-| Output        | Low           |OFF    |
-| Output        | Floating      |OFF    |
+| Signal Type   | State         | Voltage (V)       | LED   |
+|---            |---            |---            |---    |
+| Output        | High          | 24            | ON |
+| Output        | Low           | 0             | OFF   |
 
 ##### M12 Connector Pinout
 | Pin Number    |Description        |
