@@ -7,10 +7,14 @@
 
 ## Technical Ressources
 
-#### Connecting to MachineMotion
+#### How-to-Guides
 
 [How-to-Guide: Connecting to MachineMotion](__documentation/How-to-Guide--Connecting_to_MachineMotion/How-to-Guide--Connecting_to_MachineMotion.md)
 
-#### Machine Motion Software Upgrade
-
 [How-to-Guide: Machine Software Upgrade](__documentation/How-to-Guide--MachineMotion_Software_Upgrade/How-to-Guide--MachineMotion_Software_Upgrade.md)
+
+#### Datasheets
+
+[Datasheet: Digital IO Module](__documentation/Datasheet--Digital_IO_Module/Datasheet--Digital_IO_Module.md)
+
+#### User Manuals
