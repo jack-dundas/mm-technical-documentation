@@ -1,5 +1,4 @@
 ## Digital IO Module Datasheet
-### CE-MD-001-0001
 
 <p style="text-align:center;" ><img src="_media/VEN_Parts_CE-MD-001-0001_01.png" width="75%" height="75%"></p>
 
@@ -7,7 +6,18 @@
 [TOC]
 
 ### Overview
-The Digital IO Module extends the functionality of the MachineMotion controller with 4 industrial 24V inputs and 4 industrial 24V outputs. It is a plug-&-play module that only requires a single connection to MachineMotion controller. It comes ready to use with its associated 5 meters M12 cable.
+The Digital IO Module, CE-MD-001-0001 extends the functionality of the MachineMotion controller with 4 industrial 24V inputs and 4 industrial 24V outputs. It is a plug-&-play module that only requires a single connection to MachineMotion controller. It comes ready to use with its associated 5 meters M12 cable.
+
+### Important Notes
+
+#### Links
+Links in the sections below point directly to the MachineMotion controller. For these links to be functional, a controller must be connected to your computer via the fixed IP of the MachineMotion controller, 192.168.7.2.
+
+#### Port Hosting the Controller Fixed IP
+
+The default controller IP addresss was formerly hosted on the USB port. If your controller was purchased before 2019-06-01 you must connect your computer to the USB port to get access via this address.
+
+For controllers purchased after this date, the port labelled 192.168.7.2 or DEFAULT ETHERNET must be used. 
 
 #### Features
 - Configuration Free, Plug-&-Play
@@ -69,52 +79,44 @@ The Digital IO Module contains 4 inputs and 4 outputs, each of which is grouped 
 
 
 ### Applications
-The Digital IO Module can be used to interface with external systems and devices that utilize 24V digital input/output control. Among others, the devices listed below are typical use cases.
+The Digital IO Module can interface with external systems and devices that use 24V digital input/output control. The devices listed below are typical use cases:
 
-- Programmable Logic Controllers (PLC's)
-- Digital Process Sensors
+- Programmable logic controllers (PLC's)
+- Digital process sensors
 - Relays
-- Robot Controllers
-- Pneumatic Actuators
-- Push-Buttons
-- Lights and Indicators
+- Robot controllers
+- Pneumatic actuators
+- Push-buttons
+- Lights and indicators
 
-### Connection to the MachineMotion Controller
+### Connecting to MachineMotion
 
-The Digital IO Module can be connected to the MachineMotion controller via any one of the AUX ports (AUX1, AUX2, AUX3). See *Figure 3*.
+The Digital IO Module can be connected to the MachineMotion controller via any one of the controller’s AUX ports (AUX1, AUX2, AUX3). See *Figure 3*.
 
 <p style="text-align:center;" ><img src="_media/machine_motion_aux_connectors.png" width="60%" height="60%"></p>
-<p style="text-align: center;"><span style="color: #808080; font-size: 11pt;"><em>Figure 3: AUX Ports on the MachineMotion Controller.</em></p>
+<p style="text-align: center;"><span style="color: #808080; font-size: 11pt;"><em>Figure 3: AUX ports on the MachineMotion controller.</em></p>
 
-Upon connection, the module will automatically be detected and become available for use. A maximum of three Digital IO Module can be connected to a MachineMotion controller.
+The MachineMotion controller will automatically detect the module and make it available. A maximum of three Digital IO Modules can be connected to a MachineMotion controller.
 
 ### Control
-The Digital IO Module has a fixed factory address. It is indicated on the back of the enclosure on its product information sticker. The correct address needs to be used when communication with the module.
+The Digital IO Module has a fixed factory address, which is indicated on its product information sticker. Ensure you use the correct address when communication with the module.
 
 #### Vention ControlCenter
 
-The Digital IO module can be utilized via the Vention ControlCenter interface. The jogger App allows control of its outputs and visualization on its input states.
+Use the [Jogger](http://192.168.7.2/_pendant/jogger.html) app to control the Digital IO Module outputs and visualize its input states.
 
-You can access it via your Chrome browser via the ControlCenter [Jogger](http://192.168.7.2/_pendant/jogger.html). Make sure that you are connected to your MachineMotion controller via the 192.168.7.2 port (formerly labelled DEFAULT ETHERNET). Click on the lower left icon (see *Figure 4*) to access the Digital IO Module control interface (*Figure 4*).
+You can access the ControlCenter software via your Chrome browser. Make sure your computer is connected to the controller via the 192.168.7.2 port (formerly labelled DEFAULT ETHERNET). Click on the Inputs / Outputs button (see *Figure 4*) to access the Digital IO Module control interface (*Figure 4*).
 
 <p style="text-align:center;" ><img src="_media/control_center_io_control_edited.png" width="60%" height="60%"  <img style="border:1px solid grey;"> </p>
 
-<p style="text-align: center;"><span style="color: #808080; font-size: 11pt;"><em>Figure 4: Accessing the Digital IO Module Control Interface.</em></p>
+<p style="text-align: center;"><span style="color: #808080; font-size: 11pt;"><em>Figure 4: Accessing the Digital IO Module control interface.</em></p>
 
-<p style="text-align:center;" ><img src="_media/" width="60%" height="60%"  <img style="border:1px solid grey;"> </p>
+<p style="text-align:center;" ><img src="_media/control_center_digital_io_module.png" width="60%" height="60%"  <img style="border:1px solid grey;"> </p>
 
-<p style="text-align: center;"><span style="color: #808080; font-size: 11pt;"><em>Figure 5: Digital IO Module Control Interface.</em></p>
-
-
-The MachineLogic environment in ControlCenter also allows for control of the Digital IO Module.
-
+<p style="text-align: center;"><span style="color: #808080; font-size: 11pt;"><em>Figure 5: Digital IO Module control interface.</em></p>
 
 #### MachineLogic
-The [MachineLogic]() programming interface also allows for the Digital IO Module.
+The [MachineLogic]() programming interface also allows for control of the Digital IO Module.
 
 #### Python Programs
-Refer to the latest [Python API](https://github.com/VentionCo/mm-python-api) for further details on how to control the Digital IO Module with Python programs.
-
-### Notes
-- Missing Figure 5
-- Needs proof Reading
+Refer to the latest [Python API](https://github.com/VentionCo/mm-python-api) for details on how to control the Digital IO Module with Python programs.
