@@ -15,14 +15,14 @@ The Digital IO Module, CE-MD-001-0001 extends the functionality of the MachineMo
 
 ### Important Notes
 
-#### Links
-Links in the sections below point directly to the MachineMotion controller. For these links to be functional, a controller must be connected to your computer via the fixed IP of the MachineMotion controller, 192.168.7.2.
+#### Direct Links
+Direct links in the sections below point directly to the MachineMotion controller. For these links to be functional, a controller must be connected to your computer via the fixed IP of the MachineMotion controller, 192.168.7.2.
 
 #### Port Hosting the Controller Fixed IP
 
 The default controller IP addresss was formerly hosted on the USB port. If your controller was purchased before 2019-06-01 you must connect your computer to the USB port to get access via this address.
 
-For controllers purchased after this date, the port labelled 192.168.7.2 or DEFAULT ETHERNET must be used. 
+For controllers purchased after 2019-06-01, the port labelled 192.168.7.2 or DEFAULT ETHERNET must be used. 
 
 #### Features
 - Configuration Free, Plug-&-Play
@@ -107,7 +107,7 @@ The Digital IO Module has a fixed factory address, which is indicated on its pro
 
 #### Vention ControlCenter
 
-Use the [Jogger](http://192.168.7.2/_pendant/jogger.html) app to control the Digital IO Module outputs and visualize its input states.
+Use the Jogger app to control the Digital IO Module outputs and visualize its input states. Click  [here](http://192.168.7.2/_pendant/jogger.html) for a direct link to the Jogger app on your MachineMotion controller.
 
 You can access the ControlCenter software via your Chrome browser. Make sure your computer is connected to the controller via the 192.168.7.2 port (formerly labelled DEFAULT ETHERNET). Click on the Inputs / Outputs button (see *Figure 4*) to access the Digital IO Module control interface (*Figure 4*).
 
@@ -120,7 +120,7 @@ You can access the ControlCenter software via your Chrome browser. Make sure you
 <p style="text-align: center;"><span style="color: #808080; font-size: 11pt;"><em>Figure 5: Digital IO Module control interface.</em></p>
 
 #### MachineLogic
-The [MachineLogic]() programming interface also allows for control of the Digital IO Module.
+The MachineLogic programming interface also allows for control of the Digital IO Module. Click [here](http://192.168.7.2/_pendant/vse.html) for a direct link to MachineLogic on your MachineMotion controller.
 
 #### Python Programs
 Refer to the latest [Python API](https://github.com/VentionCo/mm-python-api) for details on how to control the Digital IO Module with Python programs.
