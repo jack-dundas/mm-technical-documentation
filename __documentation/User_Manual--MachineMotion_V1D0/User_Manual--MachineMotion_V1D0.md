@@ -15,13 +15,13 @@ To best utilize this user guide, it is recommended to have a MachineMotion contr
 
 
 ## Overview
-As shown in *Figure 2* & *Figure 3*, MachineMotion contains several interfaces.
+As shown in *Figure 2* & *Figure 3*, MachineMotion contains several connectors on its front panel.
 
 <p style="text-align:center;" ><img src="_media/CE-CL-105-0003_Front.png" width="45%" height="45%"></p>
 
 <p style="text-align: center;"><span style="color: #808080; font-size: 11pt;"><em>Figure 2. MachineMotion Controller Front Plate</em></p>
 
-### Device Interfaces
+### Motor & Sensor Connectors
 | Device Type                   | Ports                                                         |
 |---                            |---                                                            |
 | High power stepper motors     | DRIVE1, DRIVE2, DRIVE3                                        |
@@ -29,14 +29,14 @@ As shown in *Figure 2* & *Figure 3*, MachineMotion contains several interfaces.
 | Auxiliary                     | AUX1, AUX2, AUX3                                              |
 
 
-### Connectivity Interfaces
+### Connectivity Connectors
 | Connectivity Type             | Ports                                                         |
 |---                            |---                                                            |
 | One Cable Pendant             | PENDANT                                                       |
 | Standard Ethernet             | ETHERNET                                                      |
 | Fixed Ethernet                | 192.168.7.2                                                   |                            
 
-### Safety interfaces
+### Safety Connectors
 | Name                          | Description                                               | Ports Label   |
 |---                            |---                                                        |---            |
 | Safety System Input           | Input used to place the system in emergency stop mode     | SAFETY IN     | 
@@ -46,8 +46,9 @@ As shown in *Figure 2* & *Figure 3*, MachineMotion contains several interfaces.
 
 <p style="text-align: center;"><span style="color: #808080; font-size: 11pt;"><em>Figure 3. MachineMotion Controller Back Plate</em></p>  
     
-For additional details on electrical specifications, consult the following online document [Datasheet – MachineMotion Controller](https://www.vention.io/technical-documents/machinemotion-controller-datasheet-10).
+For additional details on electrical specifications, consult the MachineMotion datasheet: [Datasheet – MachineMotion Controller](https://www.vention.io/technical-documents/machinemotion-controller-datasheet-10).
 
+### Software Installation
 No software installation is required on your computer to start working with the MachineMotion controller. A computer with a web browser (preferable Google Chrome) is enough to access the controller, launch programs and control your machine.
 
 ### Important Notes
