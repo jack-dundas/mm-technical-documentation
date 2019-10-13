@@ -14,17 +14,15 @@
 The Digital IO Module, CE-MD-001-0001 extends the functionality of the MachineMotion controller with 4 industrial 24V inputs and 4 industrial 24V outputs. It is a plug-&-play module that only requires a single connection to MachineMotion controller. It comes ready to use with its associated 5 meters M12 cable.
 
 ### Important Notes
-
 #### Direct Links
 Direct links in the sections below point directly to the MachineMotion controller. For these links to be functional, a controller must be connected to your computer via the fixed IP of the MachineMotion controller, 192.168.7.2.
 
 #### Port Hosting the Controller Fixed IP
-
 The default controller IP addresss was formerly hosted on the USB port. If your controller was purchased before 2019-06-01 you must connect your computer to the USB port to get access via this address.
 
 For controllers purchased after 2019-06-01, the port labelled 192.168.7.2 or DEFAULT ETHERNET must be used. 
 
-#### Features
+### Features
 - Configuration Free, Plug-&-Play
 - Digital Communication with the MachineMotion Controller
 - 4 x 24V Input Ports
@@ -64,7 +62,7 @@ The Digital IO Module contains 4 inputs and 4 outputs, each of which is grouped 
 | Input         | Floating      | 24            |ON     |
 
 ##### Output LED's
-| Signal Type   | State         | Voltage (V)       | LED   |
+| Signal Type   | State         | Voltage (V)   | LED   |
 |---            |---            |---            |---    |
 | Output        | High          | 24            | ON |
 | Output        | Low           | 0             | OFF   |
