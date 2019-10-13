@@ -1,9 +1,11 @@
-# User Manual: MachineMotion Controller -- CE-CL-005-0003
+# User Manual: MachineMotion Controller
+
+<p style="text-align:center;" ><img src="_media/machine_motion_user_manual_cover.png" width="100%" height="100%"></p>
 
 ## Introduction
-MachineMotion is an integrated automation controller. It contains all the necessary components to rapidly create general automation projects. Its embedded single-board computer, multi-function sensor inputs and color-coded connections greatly simplify system setup time and configuration. On the software side, even users with limited programming experience can create automated machines thanks to MachineLogic.
+MachineMotion is an all-in-one automation controller. It contains the necessary components to rapidly create general motion control and automation projects. Its embedded single-board computer, multi-function sensor inputs and connectivity options greatly simplify system setup time and configuration. On the software side, even users with limited programming experience can create automated machines.
 
-This guide will explain how to setup, program and operate the MachineMotion controller. 
+This manual will explain how to setup, program and operate the MachineMotion controller. 
 
 To best utilize this user guide, it is recommended to have a MachineMotion controller at hand. A computer with Google Chrome installed is also required.
 
@@ -20,26 +22,25 @@ As shown in *Figure 2* & *Figure 3*, MachineMotion contains several interfaces.
 <p style="text-align: center;"><span style="color: #808080; font-size: 11pt;"><em>Figure 2. MachineMotion Controller Front Plate</em></p>
 
 ### Device Interfaces
-- Three high power stepper motor outputs:
-    - DRIVE1, DRIVE2, DRIVE3
-- Six end-of-travel sensor inputs: 
-    - SENSOR1A, SENSOR1B, SENSOR2A, SENSOR2B, SENSOR3A, SENSOR3B,
-- Three auxiliary multi-function inputs / outputs:
-    - AUX1, AUX2, AUX3
+| Device Type                   | Ports                                                         |
+|---                            |---                                                            |
+| High power stepper motors     | DRIVE1, DRIVE2, DRIVE3                                        |
+| End-of-Travel Sensors         | SENSOR1A, SENSOR1B, SENSOR2A, SENSOR2B, SENSOR3A, SENSOR3B    |
+| Auxiliary                     | AUX1, AUX2, AUX3                                              |
+
 
 ### Connectivity Interfaces
-- One Wire Pendant Connector
-    - PENDANT
-- Standard Ethernet
-    - ETHERNET
-- Peer-to-Peer Ethernet  
-    - 192.168.7.2 (formerly labelled DEFAULT ETHERNET)
+| Connectivity Type             | Ports                                                         |
+|---                            |---                                                            |
+| One Cable Pendant             | PENDANT                                                       |
+| Standard Ethernet             | ETHERNET                                                      |
+| Fixed Ethernet                | 192.168.7.2                                                   |                            
 
 ### Safety interfaces
-- Safety Input (2-channel, safety rated)
-    - SAFETY IN
-- Safety Output (2-channel, safety rated)
-    - SAFETY OUT
+| Name                          | Description                                               | Ports Label   |
+|---                            |---                                                        |---            |
+| Safety System Input           | Input used to place the system in emergency stop mode     | SAFETY IN     | 
+| Safety System Output          | Output used to trigger the system inputs of other devices | SAFETY OUT    |
 
 <p style="text-align:center;" ><img src="_media/CE-CL-105-0003_Back.png" width="45%" height="45%"></p>
 
@@ -48,6 +49,15 @@ As shown in *Figure 2* & *Figure 3*, MachineMotion contains several interfaces.
 For additional details on electrical specifications, consult the following online document [Datasheet – MachineMotion Controller](https://www.vention.io/technical-documents/machinemotion-controller-datasheet-10).
 
 No software installation is required on your computer to start working with the MachineMotion controller. A computer with a web browser (preferable Google Chrome) is enough to access the controller, launch programs and control your machine.
+
+### Important Notes
+
+#### Links
+Links in the sections below point directly to the MachineMotion controller. For these links to be functional, a controller must be connected to your computer via the fixed IP of the MachineMotion controller, 192.168.7.2.
+
+#### Port Hosting the Controller Fixed IP
+
+The default controller IP addresss was formerly hosted on the USB port. If your controller was purchased before 2019-06-01 you must connect your computer to the USB port to get access via this address.
 
 ## Installation
 
@@ -156,3 +166,6 @@ To access Cloud9, browse to [192.168.7.2:3000](http://192.168.7.2:3000) or <your
 
 ## Programming Options
 
+## Controller Versions
+
+## Related Documents
