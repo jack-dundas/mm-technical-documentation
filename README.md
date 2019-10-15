@@ -18,3 +18,5 @@
 [Datasheet: Digital IO Module](__documentation/Datasheet--Digital_IO_Module/Datasheet--Digital_IO_Module.md)
 
 #### User Manuals
+
+[User Manual: MachineMotion](__documentation/Datasheet--Digital_IO_Module/User_Manual--MachineMotion_V1D0.md)
