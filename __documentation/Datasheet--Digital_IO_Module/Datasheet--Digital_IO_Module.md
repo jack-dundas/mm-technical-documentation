@@ -8,7 +8,7 @@
 - Technical Specifications
 - Applications
 - Connecting to MachineMotion
-- Control
+- Controlling the Digital IO Module
 
 ### Overview
 The Digital IO Module, CE-MD-001-0001 extends the functionality of the MachineMotion controller with 4 industrial 24V inputs and 4 industrial 24V outputs. It is a plug-&-play module that only requires a single connection to MachineMotion controller. It comes ready to use with its associated 5 meters M12 cable.
@@ -111,14 +111,15 @@ You can access the ControlCenter software via your Chrome browser. Make sure you
 
 <p style="text-align:center;" ><img src="_media/control_center_io_control_edited.png" width="60%" height="60%"  <img style="border:1px solid grey;"> </p>
 
-<p style="text-align: center;"><span style="color: #808080; font-size: 11pt;"><em>Figure 4: Accessing the Digital IO Module control interface.</em></p>
+<p style="text-align: center;"><span style="color: #808080; font-size: 11pt;"><em>Figure 4: Accessing the Digital IO Module Control Interface.</em></p>
 
 <p style="text-align:center;" ><img src="_media/control_center_digital_io_module.png" width="60%" height="60%"  <img style="border:1px solid grey;"> </p>
 
-<p style="text-align: center;"><span style="color: #808080; font-size: 11pt;"><em>Figure 5: Digital IO Module control interface.</em></p>
+<p style="text-align: center;"><span style="color: #808080; font-size: 11pt;"><em>Figure 5: Digital IO Module Control Interface.</em></p>
 
 #### MachineLogic
 The MachineLogic programming interface also allows for control of the Digital IO Module. Click [here](http://192.168.7.2/_pendant/vse.html) for a direct link to MachineLogic on your MachineMotion controller.
+
 
 #### Python Programs
 Refer to the latest [Python API](https://github.com/VentionCo/mm-python-api) for details on how to control the Digital IO Module with Python programs.
