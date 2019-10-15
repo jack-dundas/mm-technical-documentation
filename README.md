@@ -19,4 +19,4 @@
 
 #### User Manuals
 
-[User Manual: MachineMotion](__documentation/Datasheet--Digital_IO_Module/User_Manual--MachineMotion_V1D0.md)
+[User Manual: MachineMotion](__documentation/User_Manual--MachineMotion_V1D0/User_Manual--MachineMotion_V1D0.md)
