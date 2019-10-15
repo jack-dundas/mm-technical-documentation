@@ -47,7 +47,21 @@ The single-board computer (SBC) inside the MachineMotion controller contains an 
 <p style="text-align: center;"><span style="color: #808080; font-size: 11pt;"><em>Figure 3: SD Adapter for microSD</em></p>
 
 - Upload the latest MachineMotion image file on your computer.
-   - [Latest Release : machine_motion_v1.12.1_hotfix_191003 ](https://ventionblobs.s3.amazonaws.com/machine_motion_release/machine_motion_v1.12.1_hotfix_191003.zip)
+
+<h4></h4>
+    <ul>
+        <ul>
+            <li>Latest Release</li>
+            <ul>
+                <li><a href="https://ventionblobs.s3.amazonaws.com/machine_motion_release/machine_motion_v1.12.1_hotfix_191003.zip">machine_motion_v1.12.1_hotfix_191003</a></li>
+            </ul>
+            <li>Previous Releases</li>
+            <ul>
+                <li><a href="https://ventionblobs.s3.amazonaws.com/machine_motion_release/machine_motion_v1.2.11_hotfix190910_roap.zip">machine_motion_v1.2.11_hotfix_190910_roap</a></li>
+            </ul>
+        </ul>
+    </ul>
+    <br>
 
 - Unzip the content on your local computer. The zip package contains a single **.*img***. It will be used to flash the SD-Card.
 
