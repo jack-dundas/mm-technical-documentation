@@ -1,6 +1,6 @@
 ## Digital IO Module Datasheet
 
-<p style="text-align:center;" ><img src="_media/VEN_Parts_CE-MD-001-0001_01.png" width="75%" height="75%"></p>
+<p style="text-align:center;" ><img src="../_media/VEN_Parts_CE-MD-001-0001_01.png" width="75%" height="75%"></p>
 
 ### Contents
 - Overview
@@ -50,7 +50,7 @@ For controllers purchased after 2019-06-01, the port labelled 192.168.7.2 or DEF
 The Digital IO Module contains 4 inputs and 4 outputs, each of which is grouped with a 24V and 0V supply connection for convenient wiring to external devices. The Digital IO Module is also equipped with 8 LED's to visualize the input and output signals. The LED's are located on the sides of the enclosure.
 
 ##### Input / Output
-<p style="text-align:center;" ><img src="_media/digital_io_module_pinout_hq.png" width="60%" height="60%"></p>
+<p style="text-align:center;" ><img src="../_media/digital_io_module_pinout_hq.png" width="60%" height="60%"></p>
 <p style="text-align: center;"><span style="color: #808080; font-size: 11pt;"><em>Figure 2: Digital IO Module Pinout.</em></p>
 
 
@@ -95,7 +95,7 @@ The Digital IO Module can interface with external systems and devices that use 2
 
 The Digital IO Module can be connected to the MachineMotion controller via any one of the controller’s AUX ports (AUX1, AUX2, AUX3). See *Figure 3*.
 
-<p style="text-align:center;" ><img src="_media/machine_motion_aux_connectors.png" width="60%" height="60%"></p>
+<p style="text-align:center;" ><img src="../_media/machine_motion_aux_connectors.png" width="60%" height="60%"></p>
 <p style="text-align: center;"><span style="color: #808080; font-size: 11pt;"><em>Figure 3: AUX ports on the MachineMotion controller.</em></p>
 
 The MachineMotion controller will automatically detect the module and make it available. A maximum of three Digital IO Modules can be connected to a MachineMotion controller.
@@ -109,11 +109,11 @@ Use the Jogger app to control the Digital IO Module outputs and visualize its in
 
 You can access the ControlCenter software via your Chrome browser. Make sure your computer is connected to the controller via the 192.168.7.2 port (formerly labelled DEFAULT ETHERNET). Click on the Inputs / Outputs button (see *Figure 4*) to access the Digital IO Module control interface (*Figure 4*).
 
-<p style="text-align:center;" ><img src="_media/control_center_io_control_edited.png" width="60%" height="60%"  <img style="border:1px solid grey;"> </p>
+<p style="text-align:center;" ><img src="../_media/control_center_io_control_edited.png" width="60%" height="60%"  <img style="border:1px solid grey;"> </p>
 
 <p style="text-align: center;"><span style="color: #808080; font-size: 11pt;"><em>Figure 4: Accessing the Digital IO Module Control Interface.</em></p>
 
-<p style="text-align:center;" ><img src="_media/control_center_digital_io_module.png" width="60%" height="60%"  <img style="border:1px solid grey;"> </p>
+<p style="text-align:center;" ><img src="../_media/control_center_digital_io_module.png" width="60%" height="60%"  <img style="border:1px solid grey;"> </p>
 
 <p style="text-align: center;"><span style="color: #808080; font-size: 11pt;"><em>Figure 5: Digital IO Module Control Interface.</em></p>
 
