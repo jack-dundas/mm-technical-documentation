@@ -1,0 +1,20 @@
+site_name: Vention Machine Motion Docs
+
+nav:
+
+
+site_description: "Documentation For Vention's Machine Motion Controller"
+google_analytics: null
+
+theme:
+  name: 'material'
+  language: 'en'
+  palette: 
+    primary: '#15344f'
+    accent: '#007CE7'
+  font: null
+  logo: null
+  feature: null
+
+
+
